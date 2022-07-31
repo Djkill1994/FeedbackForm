@@ -1,0 +1,30 @@
+.wrapper {
+  backdrop-filter: blur(20px);
+  width: 350px;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 15px 20px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.message {
+  min-height: 70px;
+  max-width: 355px;
+  max-height: 100px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
