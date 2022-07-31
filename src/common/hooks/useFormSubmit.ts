@@ -43,6 +43,8 @@ export const useFormSubmit: UseFormSubmit = (fields) => {
         setStatuses((prevState) => ({
           ...prevState,
           isLoading: false,
+          isError: false,
+          isSuccess: false,
         }));
       });
   };
