@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  EMAIL_REGEX,
-  NAME_REGEX,
-  PHONE_REGEX,
-} from "../../../common/constants/regex";
+import { EMAIL_REGEX, NAME_REGEX, PHONE_REGEX } from "../constants/regex";
 
 export type Validations =
   | "minLength"

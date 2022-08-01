@@ -1,4 +1,4 @@
-import { IUseInputReturn, useInput } from "./useInput";
+import { IUseInputReturn, useInput } from "../../../common/hooks/useInput";
 
 interface IUseFormValidationFields {
   name: IUseInputReturn;

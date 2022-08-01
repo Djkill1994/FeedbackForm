@@ -24,7 +24,7 @@ export const FeedbackForm: VFC = () => {
       resetFields();
       NotificationManager.success("Ваш отзыв успешно отправлен");
     }
-  }, [isSuccess, resetFields]);
+  }, [isSuccess]);
 
   useEffect(() => {
     if (isError) {
